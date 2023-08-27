@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import logo from "./logo_nm.png";
 import "./Contact.css";
 import { useNavigate } from 'react-router-dom';
 
@@ -17,7 +18,9 @@ const Contact = ({ onSubmit }) => {
     navigate('/DetailsPage');
   }
   return (
-    <div className="ContactPage"><h1>Contact Us</h1>
+    <div className="ContactPage">
+      <img className="logo" src={logo} />
+      <h1>Contact Us</h1>
     <div className="form">
       <h3>Contact Details</h3>
       <p>Please fill your information .</p>
@@ -60,7 +63,7 @@ const Contact = ({ onSubmit }) => {
           onChange={(e) => setOrg(e.target.value)}
         /></div>
       </div>
-      <button type="submit"><p className="sub">Submit</p></button>
+      <button className="Sub" type="submit"><p className="sub">Submit</p></button>
     </form>
     </div>
     </div>
