@@ -13,7 +13,11 @@ line-height: 46px; /* 135.294% */
 margin-left: 230px;
 margin-bottom: 0px;
 }
-
+.logo{
+    width: 260px;
+height: 211px;
+flex-shrink: 0;
+}
 .ContactPage{
     margin-top: 100px;
 }
@@ -96,7 +100,7 @@ background: #D9DBE9;
     flex-direction:column;
     margin-bottom: 20px;
 }
-button{
+.Sub{
     display: flex;
 width: 189px;
 height: 72px;
