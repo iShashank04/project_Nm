@@ -1,4 +1,4 @@
-h1{
+.ContactPage h1{
     width: 1020px;
 height: 59px;
 flex-shrink: 0;
@@ -10,11 +10,17 @@ font-size: 34px;
 font-style: normal;
 font-weight: 700;
 line-height: 46px; /* 135.294% */
+margin-left: 230px;
+margin-bottom: 0px;
+}
+
+.ContactPage{
+    margin-top: 100px;
 }
 
 .form{
     width: 1040px;
-height: 556px;
+height: 480px;
 flex-shrink: 0;
 border-radius: 34px;
 border: 1px solid #EFF0F6;
@@ -22,12 +28,14 @@ background: #EEE;
 box-shadow: 0px 5px 16px 0px rgba(8, 15, 52, 0.06);
 display: flex;
 flex-direction:column;
+margin-left: 250px;
 }
 .forminner{
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-between;
+    margin: 20px;
 }
 
 input{
@@ -37,8 +45,6 @@ flex-shrink: 0;
 border-radius: 46px;
 border: 1px solid var(--neutral-300, #EFF0F6);
 background: var(--neutral-100, #FFF);
-
-/* Input/Default */
 box-shadow: 0px 2px 6px 0px rgba(19, 18, 66, 0.07);
 }
 
@@ -48,13 +54,12 @@ height: 17.892px;
 flex-shrink: 0;
 color: var(--neutral-800, #170F49);
 font-feature-settings: 'clig' off, 'liga' off;
-
-/* Other/18-20 M */
 font-family: DM Sans;
 font-size: 18px;
 font-style: normal;
 font-weight: 500;
 line-height: 20px; /* 111.111% */
+margin-bottom: 10px;
 }
 
 h3{
@@ -67,7 +72,9 @@ font-family: DM Sans;
 font-size: 24px;
 font-style: normal;
 font-weight: 700;
-line-height: 35px; /* 145.833% */
+line-height: 35px;
+margin-bottom: 0px;
+margin-left: 10px;
 }
 p{
     color: #6F6C90;
@@ -76,10 +83,11 @@ font-family: DM Sans;
 font-size: 18px;
 font-style: normal;
 font-weight: 500;
-line-height: 30px; /* 166.667% */
+line-height: 30px;
+margin:0px 10px;
 }
 hr{
-
+width: 1000px;
 height: 3px;
 background: #D9DBE9;
 }
@@ -100,4 +108,15 @@ flex-shrink: 0;
 border-radius: 56px;
 background: linear-gradient(180deg, #9E96F2 0%, #EC31F0 100%);
 box-shadow: 0px 3px 12px 0px rgba(74, 58, 255, 0.18);
+margin-left: 800px;
+}
+.sub{
+    color: #FFF;
+text-align: center;
+font-feature-settings: 'clig' off, 'liga' off;
+font-family: Poppins;
+font-size: 24px;
+font-style: normal;
+font-weight: 700;
+line-height: 30px; /* 125% */
 }

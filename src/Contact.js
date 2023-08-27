@@ -17,7 +17,7 @@ const Contact = ({ onSubmit }) => {
     navigate('/DetailsPage');
   }
   return (
-    <div><h1>Contact Us</h1>
+    <div className="ContactPage"><h1>Contact Us</h1>
     <div className="form">
       <h3>Contact Details</h3>
       <p>Please fill your information .</p>
@@ -60,7 +60,7 @@ const Contact = ({ onSubmit }) => {
           onChange={(e) => setOrg(e.target.value)}
         /></div>
       </div>
-      <button type="submit">Submit</button>
+      <button type="submit"><p className="sub">Submit</p></button>
     </form>
     </div>
     </div>
