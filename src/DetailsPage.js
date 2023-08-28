@@ -29,7 +29,7 @@ function DetailsPage({ details }) {
             <input className="upload"type="file" onChange={handleChange} />
             <img src={file} />
       </div>
-      <button onClick={navigateHome}>Return</button>
+      <button className="ret" onClick={navigateHome}><p className='Ret'>Return</p></button>
     </div>
   );
 }

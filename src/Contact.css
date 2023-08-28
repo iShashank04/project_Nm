@@ -12,14 +12,12 @@ font-weight: 700;
 line-height: 46px; /* 135.294% */
 margin-left: 230px;
 margin-bottom: 0px;
+margin-top: 0px;
 }
 .logo{
     width: 260px;
 height: 211px;
 flex-shrink: 0;
-}
-.ContactPage{
-    margin-top: 100px;
 }
 
 .form{
